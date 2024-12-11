@@ -16,7 +16,7 @@ productRouter.post(
 	]),
 	addProduct
 )
-productRouter.get('/list', adminAuth, listProduct)
+productRouter.get('/list', listProduct)
 productRouter.post('/remove', removeProduct)
 productRouter.post('/single', singleProduct)
 
